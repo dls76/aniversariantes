@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.conteiner {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("fotocapa.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 800px;
+    background: #ffffffc9;
+    padding: 40px;
+    position: absolute;
+    box-shadow: 5px 5px 10px #70707090;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+}
+
+p {
+    text-align: center;
+    font-weight: bolder;
+    color: #835423;
+}
+
+#parabens {
+    margin: 30px;
+    font-size: 1.5em;
+}
+
+#nome {
+    font-size: 2.2em;
+}
+
+#funcao {
+    margin-top: 20px;
+    font-size: 1em;
+}
+
+#hoje {
+    font-size: 0.8em;
+}
+
+input {
+    margin: 40px auto 20px auto;
+    width: 170px;
+    border-radius: 20px;
+    border: 2px solid #6D657B;
+    outline: none;
+    padding: 10px;
+    cursor: pointer;
+    transition: all .3s ease-out;
+    background-color: #ffffff9c;
+    color: #6D657B;
+    font-weight: 600;
+}
+
+input:hover {
+    background-color: #6D657B9c;
+    color: #ffffff;
+}
