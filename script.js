@@ -28,7 +28,9 @@ function show() {
         
         {nome: "Giovana Schmidt dos Santos", dia: 19, mes: 4, ano: 2005, funcao: "Estudante - 131"},
         
-        {nome: "Laura Schmidt dos Santos", dia: 2, mes: 6, ano: 2011, funcao: "Estudante - 63"} 
+        {nome: "Laura Schmidt dos Santos", dia: 2, mes: 6, ano: 2011, funcao: "Estudante - 63"},
+
+        {nome: "Douglas Leal dos Santos", dia: 27, mes: 2, ano: 1976, funcao: "Diretor"}
 
     ]
 
