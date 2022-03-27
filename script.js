@@ -3,8 +3,6 @@ function show() {
     var data = new Date()
     var diaSemana = data.getDay() /*Dia da semana*/
     var dia = data.getDate() 
-    // var dia = 20 
-    // var mes = 2
     var mes = data.getMonth()
     var ano = data.getFullYear()
 
