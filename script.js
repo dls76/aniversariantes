@@ -16,6 +16,7 @@ function show() {
         {nome: "Andressa Cristina Schmidt dos Santos", dia: 7, mes: 1, ano: "1985", funcao: "Orientadora"},
         {nome: "Giovana Schmidt dos Santos", dia: 19, mes: 4, ano: 2005, funcao: "Estudante - 131"},
         {nome: "Laura Schmidt dos Santos", dia: 2, mes: 6, ano: 2011, funcao: "Estudante - 63"},
+        {nome: "Roberta Silva Ribeiro Carvalho", dia: 28, mes: 2, ano: 1976, funcao: "Secretaria"},
 
     ]
 
@@ -46,11 +47,11 @@ function show() {
     
     } else {
         document.body.style.display = "none"
-        window.location="https://dls76.github.io/D-Box/"
+        window.location="https://www.google.com"
     }
 }
 
 function fechar() {
     document.getElementById('conteiner').style.display = "none"
-    window.location="https://dls76.github.io/D-Box/"
+    window.location="https://www.google.com"
 }
