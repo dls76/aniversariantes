@@ -6,19 +6,9 @@ function show() {
     var mes = data.getMonth()
     var ano = data.getFullYear()
 
-    const diasDaSemana = [
-        "domingo",
-        "segunda",
-        "terça",
-        "quarta",
-        "quinta",
-        "sexta",
-        "sábado"
-    ]
+    const diasDaSemana = ["domingo", "segunda", "terça", "quarta", "quinta", "sexta", "sábado"]
 
-    const meses = [
-        'janeiro', 'fevereiro', 'março', 'abril', 'maio', 'junho', 'julho', 'agosto', 'setembro', 'outubro', 'novembro', 'dezembro'
-    ]
+    const meses = ['janeiro', 'fevereiro', 'março', 'abril', 'maio', 'junho', 'julho', 'agosto', 'setembro', 'outubro', 'novembro', 'dezembro']
 
     const pessoas = [
 
@@ -38,35 +28,27 @@ function show() {
     for ( i=0; i < pessoas.length; i++ ) {
 
         if (pessoas[i].dia == dia && pessoas[i].mes == mes) {
-
           aniversariantesDoDia.push(pessoas[i]) 
-
         }
-
     } 
 
-    let n = aniversariantesDoDia.length
+    var n = aniversariantesDoDia.length
 
-    if (n > 0) {
-
-        for ( i = 0; i < aniversariantesDoDia.length; i++ ) {
-
-        let p = document.createElement("p")
-        p.innerHTML = aniversariantesDoDia[i].nome + " " + aniversariantesDoDia[i].funcao
-    
-        document.getElementById("nome").appendChild(p)
-
-        } 
+    if ( n > 0 ) {
+           
+        var k = 0
+        do {    
+            const p = document.createElement("p")
+            p.innerHTML = `${aniversariantesDoDia[k].nome} - ${aniversariantesDoDia[k].funcao}`
+            document.getElementById("nome").appendChild(p)
+            k++   
+        } while ( k < n )
     
     } else {
         document.body.style.display = "none"
         window.location="https://dls76.github.io/D-Box/"
-
     }
-    
 }
-// document.getElementById('nome').innerHTML = aniversariantesDoDia[i].nome
-// document.getElementById('funcao').innerHTML = aniversariantesDoDia[i].funcao
 
 function fechar() {
     document.getElementById('conteiner').style.display = "none"
