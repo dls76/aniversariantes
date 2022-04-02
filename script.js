@@ -6,9 +6,6 @@ function show() {
     var mes = data.getMonth()
     var ano = data.getFullYear()
 
-    dia = 19
-    mes = 3
-
     const diasDaSemana = ["domingo", "segunda", "terça", "quarta", "quinta", "sexta", "sábado"]
 
     const meses = ['janeiro', 'fevereiro', 'março', 'abril', 'maio', 'junho', 'julho', 'agosto', 'setembro', 'outubro', 'novembro', 'dezembro']
