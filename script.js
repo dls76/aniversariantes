@@ -6,6 +6,9 @@ function show() {
     var mes = data.getMonth()
     var ano = data.getFullYear()
 
+    dia = 19
+    mes = 3
+
     const diasDaSemana = ["domingo", "segunda", "terça", "quarta", "quinta", "sexta", "sábado"]
 
     const meses = ['janeiro', 'fevereiro', 'março', 'abril', 'maio', 'junho', 'julho', 'agosto', 'setembro', 'outubro', 'novembro', 'dezembro']
@@ -36,7 +39,7 @@ function show() {
         {nome: "Douglas Leal dos Santos", dia: 20, mes: 2, ano: 1976, funcao: "Diretor"}, 
         // ABRIL
         {nome: "Denise Padilha Gomes", dia: 19, mes: 3, ano: 1966, funcao: "Orientadora"},
-        {nome: "Sisera Sandra Joaquim Nascimento", dia: 3, mes: 3, ano: 1963, funcao: "Orientadora"},
+        {nome: "Sandra Nascimento", dia: 2, mes: 3, ano: 1963, funcao: "Orientadora"},
         {nome: "Elaine Borges Rufino Dalla Villa", dia: 16, mes: 3, ano: 1970, funcao: "Professora"},
         {nome: "Maria Cristiane Ribas Dorneles", dia: 6, mes: 3, ano: 1976, funcao: "Zeladora"},
         {nome: "Claudia Regina Godoy de Lima", dia: 16, mes: 3, ano: 1976, funcao: "Zeladora"},
