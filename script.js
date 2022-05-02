@@ -43,6 +43,7 @@ function show() {
         {nome: "Jackelini Muzy Vaz", dia: 30, mes: 3, ano: 1978, funcao: "Professora"},
         {nome: "Josiele Alves", dia: 19, mes: 3, ano: 1980, funcao: "Professora"},
         {nome: "Joelma Batista Prestes", dia: 29, mes: 3, ano: 1980, funcao: "Aux. de Classe"},
+        {nome: "Joelma Castro de Santana Abreu", dia: 29, mes: 3, ano: 1988, funcao: "Professora"},
         {nome: "Ana Claudia Stocco Ramos Candido", dia: 7, mes: 3, ano: 1982, funcao: "Professora"},
         {nome: "Patricia Helen de Oliveira Sebastiao", dia: 27, mes: 3, ano: 1984, funcao: "Aux. de Classe"},
         {nome: "Talita Salazar dos Santos", dia: 27, mes: 3, ano: 1992, funcao: "Monitora"},
@@ -51,6 +52,7 @@ function show() {
         {nome: "Juliana Pires Lima", dia: 5, mes: 3, ano: 1998, funcao: "Aux. de Classe"},
         {nome: "Andre Felipe Stachak dos Santos", dia: 28, mes: 3, ano: 2000, funcao: "Aux. de TI"},
         // MAIO
+        {nome: "Caroline do Nascimento Dauzacker", dia: 28, mes: 4, ano: 2002, funcao: "Recepcionista"},
         {nome: "Rudimar Roberto Nemitz", dia: 9, mes: 4, ano: 1966, funcao: "Coord. Disciplinar"},
         {nome: "Wilson José Sebastião", dia: 8, mes: 4, ano: 1972, funcao: "Professor"},
         {nome: "Lucilene Silvestre Barbosa", dia: 28, mes: 4, ano: 1972, funcao: "Monitora"},
