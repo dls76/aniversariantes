@@ -64,6 +64,7 @@ function show() {
         {nome: "Patricia Maria Chagas", dia: 31, mes: 4, ano: 1994, funcao: "Professora"},
         {nome: "Rodrigo Marlon Bueno", dia: 29, mes: 4, ano: 1998, funcao: "Monitor"},
         {nome: "Cristiano Halabi Monteiro Ribas", dia: 11, mes: 4, ano: 2000, funcao: "Professor"},
+        {nome: "Tatiane da Silva Martins", dia: 25, mes: 4, ano: 1993, funcao: "Tutora"},
         //JUNHO
         {nome: "Josiane Charnei Gonçalves", dia: 10, mes: 5, ano: 1983, funcao: "Reprografista"},
         {nome: "Tayna Ribeiro dos Santos ", dia: 25, mes: 5, ano: 1997, funcao: "Professora"},
@@ -76,30 +77,37 @@ function show() {
         {nome: "Ronaldo Vieira Silva Modesto", dia: 12, mes: 6, ano: 1982, funcao: "Professor"},
         {nome: "João Paulo Sales Marreiro", dia: 31, mes: 6, ano: 1982, funcao: "Monitor"},
         {nome: "Thiago Andrews Carvalho", dia: 24, mes: 6, ano: 1984, funcao: "Vice-diretor"},
+        
         //AGOSTO
         {nome: "Sandra Cristina Labatut Pereira", dia: 19, mes: 7, ano: 1970, funcao: "Professora"},
         {nome: "Vania Geraldo da Silva Soares", dia: 4, mes: 7, ano: 1976, funcao: "Professora"},
         {nome: "Clarice dos Santos da Silva", dia: 15, mes: 7, ano: 1977, funcao: "Professora"},
         {nome: "Willian Resende Leite", dia: 25, mes: 7, ano: 1977, funcao: "Professor"},
+        
         //SETEMBRO
-        {nome: "Jucicleide Silva Santos", dia: 25, mes: 8, ano: 1974, funcao: "Professora"},
         {nome: "Janete Stachak dos Santos", dia: 1, mes: 8, ano: 1976, funcao: "Monitora"},
-        {nome: "Scheyla Luciana Pinto dos Santos de Lima", dia: 11, mes: 8, ano: 1976, funcao: "Professora"},
-        {nome: "Hellen Aguilar da Silva Perly", dia: 28, mes: 8, ano: 1983, funcao: "Professora"},
-        {nome: "Eduardo Blaskovi Pereira dos Santos", dia: 20, mes: 8, ano: 1985, funcao: "Promotor Matrícula"},
         {nome: "Merillyn Kelse Rego Abreu", dia: 6, mes: 8, ano: 1986, funcao: "Recepcionista"},
+        {nome: "Scheyla Luciana Pinto dos Santos de Lima", dia: 11, mes: 8, ano: 1976, funcao: "Professora"},
+        {nome: "Louise Helena Monteiro Vargas", dia: 15, mes: 8, ano: 1995, funcao: "Psicóloga"},
+        {nome: "Eduardo Blaskovi Pereira dos Santos", dia: 20, mes: 8, ano: 1985, funcao: "Promotor Matrícula"},
+        {nome: "Jucicleide Silva Santos", dia: 25, mes: 8, ano: 1974, funcao: "Professora"},
+        // {nome: "Patricia do Nascimento Bizzoli", dia: 25, mes: 8, ano: 1974, funcao: "Professora"},
         {nome: "Endi Thais Santos da Silva", dia: 26, mes: 8, ano: 1993, funcao: "Professora"},
+        {nome: "Hellen Aguilar da Silva Perly", dia: 28, mes: 8, ano: 1983, funcao: "Professora"},
+        
         //OUTUBRO
-        {nome: "Maria Cristina de Matos", dia: 12, mes: 9, ano: 1966, funcao: "Monitora"},
-        {nome: "Lorena Cecilia Fonta Alvares", dia: 19, mes: 9, ano: 1981, funcao: "Zeladora"},
         {nome: "Ana Paula de Barros Muller", dia: 6, mes: 9, ano: 1982, funcao: "Professora"},
-        {nome: "Alessandra Medeiros Wolff", dia: 7, mes: 9, ano: 1982, funcao: "Professora"},
-        {nome: "Eliesio Alencar", dia: 18, mes: 9, ano: 1995, funcao: "Aux. Tesouraria"},
         {nome: "Luis Felipe Rodrigues Dias", dia: 6, mes: 9, ano: 1997, funcao: "Professor"},
+        {nome: "Alessandra Medeiros Wolff", dia: 7, mes: 9, ano: 1982, funcao: "Professora"},
+        {nome: "Maria Cristina de Matos", dia: 12, mes: 9, ano: 1966, funcao: "Monitora"},
+        {nome: "Eliesio Alencar", dia: 18, mes: 9, ano: 1995, funcao: "Aux. Tesouraria"},
+        {nome: "Lorena Cecilia Fonta Alvares", dia: 19, mes: 9, ano: 1981, funcao: "Zeladora"},
+        
         //NOVEMBRO
         {nome: "Maria Aparecida de Barros Almeida", dia: 13, mes: 10, ano: 1963, funcao: "Orientadora"},
         {nome: "Denise Schmidt Vieira", dia: 5, mes: 10, ano: 1971, funcao: "Professora"},
         {nome: "Leticia Caroline dos Santos", dia: 16, mes: 10, ano: 2000, funcao: "Aux. de Classe"},
+        
         //DEZEMBRO
         {nome: "Raquel das Gracas Rodrigues da Anunciacao", dia: 7, mes: 11, ano: 1968, funcao: "Aux. de Classe"},
         {nome: "Janete Alves Thachechem", dia: 27, mes: 11, ano: 1976, funcao: "Professora"},
@@ -138,11 +146,11 @@ function show() {
     
     } else {
         document.body.style.display = "none"
-        window.location="https://www.google.com"
+        window.location="https://dls76.github.io/D-Box/"
     }
 }
 
 function fechar() {
     document.getElementById('conteiner').style.display = "none"
-    window.location="https://www.google.com"
+    window.location="https://dls76.github.io/D-Box/"
 }
