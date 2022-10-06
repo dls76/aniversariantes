@@ -104,19 +104,22 @@ function show() {
         {nome: "Lorena Cecilia Fonta Alvares", dia: 19, mes: 9, ano: 1981, funcao: "Zeladora"},
         
         //NOVEMBRO
-        {nome: "Maria Aparecida de Barros Almeida", dia: 13, mes: 10, ano: 1963, funcao: "Orientadora"},
         {nome: "Denise Schmidt Vieira", dia: 5, mes: 10, ano: 1971, funcao: "Professora"},
+        {nome: "Janice Maria de Santana da Silva", dia: 8, mes: 10, ano: 1969, funcao: ""},
+        {nome: "Luiz Carlos de Lima da Silva", dia: 11, mes: 10, ano: 1974, funcao: ""},
+        {nome: "Maria Aparecida de Barros Almeida", dia: 13, mes: 10, ano: 1963, funcao: "Orientadora"},
         {nome: "Leticia Caroline dos Santos", dia: 16, mes: 10, ano: 2000, funcao: "Aux. de Classe"},
+        {nome: "Sãmella Modesto Ferreira", dia: 27, mes: 10, ano: 2003, funcao: "Aux. de Classe"},
+        {nome: "Gisele Anastacio de Souza", dia: 29, mes: 10, ano: 1983, funcao: "Aux. de Classe"},
+        {nome: "Fernanda Moreira da Silva Nakonieczni", dia: 30, mes: 10, ano: 1990, funcao: "Professora"},
         
         //DEZEMBRO
-        {nome: "Raquel das Gracas Rodrigues da Anunciacao", dia: 7, mes: 11, ano: 1968, funcao: "Aux. de Classe"},
-        {nome: "Janete Alves Thachechem", dia: 27, mes: 11, ano: 1976, funcao: "Professora"},
-        {nome: "Denis de Noronha Gomes", dia: 19, mes: 11, ano: 1977, funcao: "Professor"},
-        {nome: "Caroline Ramos Joaquim", dia: 17, mes: 11, ano: 1978, funcao: "Professora"},
-        {nome: "Reinaldo Felipe Ferreira", dia: 7, mes: 11, ano: 1982, funcao: "Psicólogo"},
-        {nome: "Katia Jaqueline Tavares Adriano", dia: 4, mes: 11, ano: 1985, funcao: "Professora"},
-        {nome: "Carin Grime de Melo", dia: 13, mes: 11, ano: 1988, funcao: "Aux. Secretaria"},
         {nome: "Danielle Sousa da Silva Ferraz de Matos", dia: 2, mes: 11, ano: 1989, funcao: "Tesoureira"},
+        {nome: "Raquel das Gracas Rodrigues da Anunciacao", dia: 7, mes: 11, ano: 1968, funcao: "Aux. de Classe"},
+        {nome: "Carin Grime de Melo", dia: 13, mes: 11, ano: 1988, funcao: "Aux. Secretaria"},
+        {nome: "Caroline Ramos Joaquim", dia: 17, mes: 11, ano: 1978, funcao: "Professora"},
+        {nome: "Denis de Noronha Gomes", dia: 19, mes: 11, ano: 1977, funcao: "Professor"},
+        {nome: "Janete Alves Thachechem", dia: 27, mes: 11, ano: 1976, funcao: "Professora"},
     ]
 
     const aniversariantesDoDia = [] 
