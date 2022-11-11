@@ -91,7 +91,6 @@ function show() {
         {nome: "Louise Helena Monteiro Vargas", dia: 15, mes: 8, ano: 1995, funcao: "Psicóloga"},
         {nome: "Eduardo Blaskovi Pereira dos Santos", dia: 20, mes: 8, ano: 1985, funcao: "Promotor Matrícula"},
         {nome: "Jucicleide Silva Santos", dia: 25, mes: 8, ano: 1974, funcao: "Professora"},
-        // {nome: "Patricia do Nascimento Bizzoli", dia: 25, mes: 8, ano: 1974, funcao: "Professora"},
         {nome: "Endi Thais Santos da Silva", dia: 26, mes: 8, ano: 1993, funcao: "Professora"},
         {nome: "Hellen Aguilar da Silva Perly", dia: 28, mes: 8, ano: 1983, funcao: "Professora"},
         
@@ -106,7 +105,6 @@ function show() {
         //NOVEMBRO
         {nome: "Denise Schmidt Vieira", dia: 5, mes: 10, ano: 1971, funcao: "Professora"},
         {nome: "Janice Maria de Santana da Silva", dia: 8, mes: 10, ano: 1969, funcao: ""},
-        {nome: "Luiz Carlos de Lima da Silva", dia: 11, mes: 10, ano: 1974, funcao: ""},
         {nome: "Maria Aparecida de Barros Almeida", dia: 13, mes: 10, ano: 1963, funcao: "Orientadora"},
         {nome: "Leticia Caroline dos Santos", dia: 16, mes: 10, ano: 2000, funcao: "Aux. de Classe"},
         {nome: "Sãmella Modesto Ferreira", dia: 27, mes: 10, ano: 2003, funcao: "Aux. de Classe"},
