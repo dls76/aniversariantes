@@ -117,7 +117,7 @@ function show() {
         {nome: "Carin Grime de Melo", dia: 13, mes: 11, ano: 1988, funcao: "Aux. Secretaria"},
         {nome: "Caroline Ramos Joaquim", dia: 17, mes: 11, ano: 1978, funcao: "Professora"},
         {nome: "Denis de Noronha Gomes", dia: 19, mes: 11, ano: 1977, funcao: "Professor"},
-        {nome: "Janete Alves Thachechem", dia: 27, mes: 11, ano: 1976, funcao: "Professora"},
+        {nome: "Janete Alves Tachechem", dia: 27, mes: 11, ano: 1976, funcao: "Professora"},
     ]
 
     const aniversariantesDoDia = [] 
