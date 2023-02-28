@@ -23,7 +23,6 @@ function show() {
         {nome: "Pauline Ferreira Roefero", dia: 24, mes: 1, ano: 1977, funcao: "Professora"},
         {nome: "Luciano Eliel Pszybylski", dia: 7, mes: 1, ano: 1980, funcao: "Professor"},
         {nome: "Sarita Teresinha Burei", dia: 9, mes: 1, ano: 1980, funcao: "Aux. de Classe"},
-        {nome: "Giselle Carolina Lopes Mariotto", dia: 28, mes: 1, ano: 1984, funcao: "Coordenadora"},
         {nome: "Karoline Brendle Medeiros", dia: 16, mes: 1, ano: 1990, funcao: "Coordenadora"},
         {nome: "Murilo Klimek", dia: 2, mes: 1, ano: 2001, funcao: "TI"},
         // MARÇO
@@ -32,8 +31,8 @@ function show() {
         {nome: "Ana Lucia Santos das Neves", dia: 22, mes: 2, ano: 1976, funcao: "Aux. de Classe"},
         {nome: "Sirlei Barbosa da Silva Gomes", dia: 2, mes: 2, ano: 1980, funcao: "Aux. Biblioteca"},
         {nome: "Priscila Paula de Oliveira Albanez", dia: 21, mes: 2, ano: 1988, funcao: "Professora"},
-        {nome: "Luan Henrique França", dia: 6, mes: 2, ano: 1989, funcao: "Monitor"},
         {nome: "Douglas Leal dos Santos", dia: 20, mes: 2, ano: 1976, funcao: "Diretor"}, 
+
         // ABRIL
         {nome: "Denise Padilha Gomes", dia: 19, mes: 3, ano: 1966, funcao: "Orientadora"},
         {nome: "Sandra Nascimento", dia: 2, mes: 3, ano: 1963, funcao: "Orientadora"},
