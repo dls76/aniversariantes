@@ -11,112 +11,51 @@ function show() {
     const meses = ['janeiro', 'fevereiro', 'março', 'abril', 'maio', 'junho', 'julho', 'agosto', 'setembro', 'outubro', 'novembro', 'dezembro']
 
     const pessoas = [
-        // JANEIRO
-        {nome: "Humberto Marshall Mendes Giménez", dia: 10, mes: 0, ano: 1967, funcao: "Professor"},
-        {nome: "Rosilene de Araujo Silva", dia: 19, mes: 0, ano: 1967, funcao: "Professora"},
-        {nome: "Roberta Silva Ribeiro Carvalho", dia: 22, mes: 0, ano: 1979, funcao: "Secretária"},
-        {nome: "Guilherme Dionisio Lendecker", dia: 19, mes: 0, ano: 1981, funcao: "Professor"},
-        {nome: "Paula Gavinski Silvestre", dia: 21, mes: 0, ano: 1986, funcao: "Professora"},
-        {nome: "Jeniffer Beatriz de Oliveira", dia: 2, mes: 0, ano: 2001, funcao: "Aux. de Classe"},
-        // FEVEREIRO
-        {nome: "Ione Modesto Andrade", dia: 16, mes: 1, ano: 1967, funcao: "Zeladora"},
-        {nome: "Pauline Ferreira Roefero", dia: 24, mes: 1, ano: 1977, funcao: "Professora"},
-        {nome: "Luciano Eliel Pszybylski", dia: 7, mes: 1, ano: 1980, funcao: "Professor"},
-        {nome: "Sarita Teresinha Burei", dia: 9, mes: 1, ano: 1980, funcao: "Aux. de Classe"},
-        {nome: "Karoline Brendle Medeiros", dia: 16, mes: 1, ano: 1990, funcao: "Coordenadora"},
-        {nome: "Murilo Klimek", dia: 2, mes: 1, ano: 2001, funcao: "TI"},
-        // MARÇO
-        {nome: "Wander Rocha de Oliveira", dia: 15, mes: 2, ano: 1963, funcao: "Professor"},
-        {nome: "Hermes da Silva Jardim", dia: 12, mes: 2, ano: 1965, funcao: "Professor"},
-        {nome: "Ana Lucia Santos das Neves", dia: 22, mes: 2, ano: 1976, funcao: "Aux. de Classe"},
-        {nome: "Sirlei Barbosa da Silva Gomes", dia: 2, mes: 2, ano: 1980, funcao: "Aux. Biblioteca"},
-        {nome: "Priscila Paula de Oliveira Albanez", dia: 21, mes: 2, ano: 1988, funcao: "Professora"},
-        {nome: "Douglas Leal dos Santos", dia: 20, mes: 2, ano: 1976, funcao: "Diretor"}, 
+       
+        //JULHO	
+    {nome: "Ana Prado Bevilaqua", dia: 4, mes: 6, ano: 1978, funcao: "Professor(a)", foto:"img/avatar.png", nascimento: new Date()},
+    {nome: "Daniela Regina Lamarques Isobe", dia: 4, mes: 6, ano: 1975, funcao: "Coordenadora", foto:"img/account.png", nascimento: new Date()},
+    {nome: "Noemi Macedo Amorim", dia: 7, mes: 6, ano: 1976, funcao: "Professor(a)", foto:"img/account.png", nascimento: new Date()},
+    {nome: "Cacilda Smaha Mannala", dia: 16, mes: 6, ano: 1972, funcao: "Bibliotecaria", foto:"img/account.png", nascimento: new Date()},
+    {nome: "Ana Amelia Loureço Simas", dia: 21, mes: 6, ano: 1978, funcao: "Função", foto:"img/account.png", nascimento: new Date()},
+    {nome: "Egislaine Regina Gonsaga", dia: 22, mes: 6, ano: 1978, funcao: "Função", foto:"img/account.png", nascimento: new Date()},
+    {nome: "Nailson Veras do Nascimento", dia: 24, mes: 6, ano: 1979, funcao: "Coordenador(a) Disciplinar", foto:"img/account.png", nascimento: new Date()},
+    {nome: "Thayse Oliveira dos Passos", dia: 25, mes: 6, ano: 1984, funcao: "Auxiliar de Biblioteca", foto:"img/account.png", nascimento: new Date()},
+    {nome: "Eloiza Carla dos Santos", dia: 27, mes: 6, ano: 2002, funcao: "Auxiliar de Secretaria", foto:"img/account.png", nascimento: new Date()},
+    {nome: "Leidiane Cristina Germano", dia: 27, mes: 6, ano: 1988, funcao: "Função", foto:"img/account.png", nascimento: new Date()},
+    {nome: "Monica Cristina Martins de Novais", dia: 31, mes: 6, ano: 1979, funcao: "Função", foto:"img/account.png", nascimento: new Date()},
+    
+    //AGOSTO
+    {nome: "Vanessa Moura de Freitas", dia: 2, mes: 7, ano: 1985, funcao: "Zeladora", foto:"img/anivImg/Vanessa.jpg", nascimento: new Date()},
+    {nome: "Caroline Cristina de Brito", dia: 4, mes: 7, ano: 1988, funcao: "Coordenadora Pedagógica", foto:"img/anivImg/Caroline.jpg", nascimento: new Date()},
+    {nome: "Elizabeth Alves Braun Soares", dia: 6, mes: 7, ano: 1971, funcao: "Auxiliar de Contraturno", foto:"img/anivImg/Elizabeth.jpg", nascimento: new Date()},
+    {nome: "Leonardo Ormianin Torres", dia: 12, mes: 7, ano: 1999, funcao: "Professor(a)", foto:"img/anivImg/Leonardo.jpg", nascimento: new Date()},
+    {nome: "Jessica Aparecida Dionisio", dia: 12, mes: 7, ano: 1996, funcao: "Tutora", foto:"img/anivImg/Jessica.jpg", nascimento: new Date()},
+    {nome: "Allan Almeida Lima", dia: 26, mes: 7, ano: 1982, funcao: "Professor(a)", foto:"img/anivImg/Allan.jpg", nascimento: new Date()},
+    {nome: "Laís Daniele dos Santos", dia: 28, mes: 7, ano: 2001, funcao: "Auxiliar Contraturno", foto:"img/anivImg/Lais.jpg", nascimento: new Date()},
+    
+    //SETEMBRO
+    {nome: "Renata Brasil Lima", dia: 1, mes: 8, ano: 1993, funcao: "Professor(a)", foto:"img/anivImg/Renata.jpg", nascimento: new Date()},
+    {nome: "Ingo Iwankiw", dia: 2, mes: 8, ano: 1980, funcao: "Monitor(a)", foto:"img/anivImg/Ingo.jpg", nascimento: new Date()},
+    {nome: "Felipe Guilherme Lima Bueno da Silva", dia: 11, mes: 8, ano: 1988, funcao: "Professor(a)", foto:"img/anivImg/Felipe.jpg", nascimento: new Date()},
+    {nome: "Rafael Guilherme Palma Silva", dia: 13, mes: 8, ano: 1988, funcao: "Professor(a)", foto:"img/anivImg/Rafael.jpg", nascimento: new Date()},
+    {nome: "Rafaela Lourenco de Mello", dia: 25, mes: 8, ano: 1990, funcao: "Auxiliar", foto:"img/anivImg/Rafaela.jpg", nascimento: new Date()},
+    {nome: "Daniel Faria Filho", dia: 26, mes: 8, ano: 1963, funcao: "Monitor(a)", foto:"img/anivImg/Daniel.jpg", nascimento: new Date()},
+    {nome: "Vinicius Fernando Serain", dia: 27, mes: 8, ano: 1990, funcao: "Pastoral", foto:"img/anivImg/vini.jpg", nascimento: new Date()},
 
-        // ABRIL
-        {nome: "Denise Padilha Gomes", dia: 19, mes: 3, ano: 1966, funcao: "Orientadora"},
-        {nome: "Sandra Nascimento", dia: 2, mes: 3, ano: 1963, funcao: "Orientadora"},
-        {nome: "Elaine Borges Rufino Dalla Villa", dia: 16, mes: 3, ano: 1970, funcao: "Professora"},
-        {nome: "Maria Cristiane Ribas Dorneles", dia: 6, mes: 3, ano: 1976, funcao: "Zeladora"},
-        {nome: "Claudia Regina Godoy de Lima", dia: 16, mes: 3, ano: 1976, funcao: "Zeladora"},
-        {nome: "Jackelini Muzy Vaz", dia: 30, mes: 3, ano: 1978, funcao: "Professora"},
-        {nome: "Josiele Alves", dia: 19, mes: 3, ano: 1980, funcao: "Professora"},
-        {nome: "Joelma Batista Prestes", dia: 29, mes: 3, ano: 1980, funcao: "Aux. de Classe"},
-        {nome: "Joelma Castro de Santana Abreu", dia: 29, mes: 3, ano: 1988, funcao: "Professora"},
-        {nome: "Ana Claudia Stocco Ramos Candido", dia: 7, mes: 3, ano: 1982, funcao: "Professora"},
-        {nome: "Patricia Helen de Oliveira Sebastiao", dia: 27, mes: 3, ano: 1984, funcao: "Aux. de Classe"},
-        {nome: "Talita Salazar dos Santos", dia: 27, mes: 3, ano: 1992, funcao: "Monitora"},
-        {nome: "Lucas de Lima Galo", dia: 20, mes: 3, ano: 1996, funcao: "Monitor"},
-        {nome: "Dielen Peniche do Nascimento Costa", dia: 10, mes: 3, ano: 1997, funcao: "Zeladora"},
-        {nome: "Juliana Pires Lima", dia: 5, mes: 3, ano: 1998, funcao: "Aux. de Classe"},
-        {nome: "Andre Felipe Stachak dos Santos", dia: 28, mes: 3, ano: 2000, funcao: "Aux. de TI"},
-        // MAIO
-        {nome: "Caroline do Nascimento Dauzacker", dia: 28, mes: 4, ano: 2002, funcao: "Recepcionista"},
-        {nome: "Rudimar Roberto Nemitz", dia: 9, mes: 4, ano: 1966, funcao: "Coord. Disciplinar"},
-        {nome: "Wilson José Sebastião", dia: 8, mes: 4, ano: 1972, funcao: "Professor"},
-        {nome: "Lucilene Silvestre Barbosa", dia: 28, mes: 4, ano: 1972, funcao: "Monitora"},
-        {nome: "Matheus Souza da Rosa", dia: 7, mes: 4, ano: 1985, funcao: "Professor"},
-        {nome: "Fernanda de Fatima de Matos Borges", dia: 14, mes: 4, ano: 1985, funcao: "Professora"},
-        {nome: "Jaqueline Alves de Grandi", dia: 29, mes: 4, ano: 1986, funcao: "Professora"},
-        {nome: "Wesley de Sousa Oliveira", dia: 31, mes: 4, ano: 1986, funcao: "Monitor"},
-        {nome: "Fernando da Silva Calsavara", dia: 3, mes: 4, ano: 1989, funcao: "Professor"},
-        {nome: "Patricia Maria Chagas", dia: 31, mes: 4, ano: 1994, funcao: "Professora"},
-        {nome: "Rodrigo Marlon Bueno", dia: 29, mes: 4, ano: 1998, funcao: "Monitor"},
-        {nome: "Cristiano Halabi Monteiro Ribas", dia: 11, mes: 4, ano: 2000, funcao: "Professor"},
-        {nome: "Tatiane da Silva Martins", dia: 25, mes: 4, ano: 1993, funcao: "Tutora"},
-        //JUNHO
-        {nome: "Josiane Charnei Gonçalves", dia: 10, mes: 5, ano: 1983, funcao: "Reprografista"},
-        {nome: "Tayna Ribeiro dos Santos ", dia: 25, mes: 5, ano: 1997, funcao: "Professora"},
-        {nome: "Leticia Rafaela Morales", dia: 11, mes: 5, ano: 1999, funcao: "Aux. de Classe"},
-        //JULHO
-        {nome: "Cacilda Smaha Mannala", dia: 16, mes: 6, ano: 1972, funcao: "Bibliotecária Rede"},
-        {nome: "Janice Aparecida dos Santos Mello", dia: 19, mes: 6, ano: 1972, funcao: "Aux. de Classe"},
-        {nome: "Daniela Regina Lamarques Isobe", dia: 4, mes: 6, ano: 1975, funcao: "Coordenadora"},
-        {nome: "Liamara Andrighetto", dia: 8, mes: 6, ano: 1981, funcao: "Professora"},
-        {nome: "Ronaldo Vieira Silva Modesto", dia: 12, mes: 6, ano: 1982, funcao: "Professor"},
-        {nome: "João Paulo Sales Marreiro", dia: 31, mes: 6, ano: 1982, funcao: "Monitor"},
-        {nome: "Thiago Andrews Carvalho", dia: 24, mes: 6, ano: 1984, funcao: "Vice-diretor"},
+    //OUTUBRO
+    {nome: "Daisy Karin Silva Ferreira", dia: 6, mes: 9, ano: 1993, funcao: "Matrículas", foto:"img/anivImg/", nascimento: new Date()},
+    {nome: "Larissa Cardoso de Franca Goncalves", dia: 6, mes: 9, ano: 1987, funcao: "Professor(a)", foto:"img/anivImg/", nascimento: new Date()},
+    {nome: "Gisele Cordeiro da Silva", dia: 9, mes: 9, ano: 1984, funcao: "Tutor(a)", foto:"img/anivImg/", nascimento: new Date()},
+    {nome: "Jaqueline Marcia Hoffmeister Senko", dia: 9, mes: 9, ano: 1980, funcao: "Coord(a) Pedagógico(a)", foto:"img/anivImg/", nascimento: new Date()},
+    {nome: "Joice Mari da Silva Pereira", dia: 10, mes: 9, ano: 1992, funcao: "Professor(a)", foto:"img/anivImg/", nascimento: new Date()},
+    {nome: "Douglas Frohlich Reded", dia: 19, mes: 9, ano: 1992, funcao: "Ti", foto:"img/anivImg/", nascimento: new Date()},
+    {nome: "Silmara de Lima Grochka", dia: 19, mes: 9, ano: 1993, funcao: "Zelador(a)", foto:"img/anivImg/", nascimento: new Date()},
+    {nome: "Isabele Carla dos Santos", dia: 24, mes: 9, ano: 2000, funcao: "Monitor(a)", foto:"img/anivImg/", nascimento: new Date()},
+    {nome: "Carmem Aparecida Abolis da Silva", dia: 25, mes: 9, ano: 1982, funcao: "Professor(a)", foto:"img/anivImg/", nascimento: new Date()},
+    {nome: "Rosineide de Souza Westphal", dia: 25, mes: 9, ano: 1982, funcao: "Monitor(a)", foto:"img/anivImg/", nascimento: new Date()},
         
-        //AGOSTO
-        {nome: "Sandra Cristina Labatut Pereira", dia: 19, mes: 7, ano: 1970, funcao: "Professora"},
-        {nome: "Vania Geraldo da Silva Soares", dia: 4, mes: 7, ano: 1976, funcao: "Professora"},
-        {nome: "Clarice dos Santos da Silva", dia: 15, mes: 7, ano: 1977, funcao: "Professora"},
-        {nome: "Willian Resende Leite", dia: 25, mes: 7, ano: 1977, funcao: "Professor"},
-        
-        //SETEMBRO
-        {nome: "Janete Stachak dos Santos", dia: 1, mes: 8, ano: 1976, funcao: "Monitora"},
-        {nome: "Merillyn Kelse Rego Abreu", dia: 6, mes: 8, ano: 1986, funcao: "Recepcionista"},
-        {nome: "Scheyla Luciana Pinto dos Santos de Lima", dia: 11, mes: 8, ano: 1976, funcao: "Professora"},
-        {nome: "Louise Helena Monteiro Vargas", dia: 15, mes: 8, ano: 1995, funcao: "Psicóloga"},
-        {nome: "Eduardo Blaskovi Pereira dos Santos", dia: 20, mes: 8, ano: 1985, funcao: "Promotor Matrícula"},
-        {nome: "Jucicleide Silva Santos", dia: 25, mes: 8, ano: 1974, funcao: "Professora"},
-        {nome: "Endi Thais Santos da Silva", dia: 26, mes: 8, ano: 1993, funcao: "Professora"},
-        {nome: "Hellen Aguilar da Silva Perly", dia: 28, mes: 8, ano: 1983, funcao: "Professora"},
-        
-        //OUTUBRO
-        {nome: "Ana Paula de Barros Muller", dia: 6, mes: 9, ano: 1982, funcao: "Professora"},
-        {nome: "Luis Felipe Rodrigues Dias", dia: 6, mes: 9, ano: 1997, funcao: "Professor"},
-        {nome: "Alessandra Medeiros Wolff", dia: 7, mes: 9, ano: 1982, funcao: "Professora"},
-        {nome: "Maria Cristina de Matos", dia: 12, mes: 9, ano: 1966, funcao: "Monitora"},
-        {nome: "Eliesio Alencar", dia: 18, mes: 9, ano: 1995, funcao: "Aux. Tesouraria"},
-        {nome: "Lorena Cecilia Fonta Alvares", dia: 19, mes: 9, ano: 1981, funcao: "Zeladora"},
-        
-        //NOVEMBRO
-        {nome: "Denise Schmidt Vieira", dia: 5, mes: 10, ano: 1971, funcao: "Professora"},
-        {nome: "Janice Maria de Santana da Silva", dia: 8, mes: 10, ano: 1969, funcao: ""},
-        {nome: "Maria Aparecida de Barros Almeida", dia: 13, mes: 10, ano: 1963, funcao: "Orientadora"},
-        {nome: "Leticia Caroline dos Santos", dia: 16, mes: 10, ano: 2000, funcao: "Aux. de Classe"},
-        {nome: "Sãmella Modesto Ferreira", dia: 27, mes: 10, ano: 2003, funcao: "Aux. de Classe"},
-        {nome: "Gisele Anastacio de Souza", dia: 29, mes: 10, ano: 1983, funcao: "Aux. de Classe"},
-        {nome: "Fernanda Moreira da Silva Nakonieczni", dia: 30, mes: 10, ano: 1990, funcao: "Professora"},
-        
-        //DEZEMBRO
-        {nome: "Danielle Sousa da Silva Ferraz de Matos", dia: 2, mes: 11, ano: 1989, funcao: "Tesoureira"},
-        {nome: "Raquel das Gracas Rodrigues da Anunciacao", dia: 7, mes: 11, ano: 1968, funcao: "Aux. de Classe"},
-        {nome: "Carin Grime de Melo", dia: 13, mes: 11, ano: 1988, funcao: "Aux. Secretaria"},
-        {nome: "Caroline Ramos Joaquim", dia: 17, mes: 11, ano: 1978, funcao: "Professora"},
-        {nome: "Denis de Noronha Gomes", dia: 19, mes: 11, ano: 1977, funcao: "Professor"},
-        {nome: "Janete Alves Tachechem", dia: 27, mes: 11, ano: 1976, funcao: "Professora"},
+       
     ]
 
     const aniversariantesDoDia = [] 
@@ -146,11 +85,11 @@ function show() {
     
     } else {
         document.body.style.display = "none"
-        window.location="https://dls76.github.io/D-Box/"
+        window.location="https://dls76.github.io/dbox2/"
     }
 }
 
 function fechar() {
     document.getElementById('conteiner').style.display = "none"
-    window.location="https://dls76.github.io/D-Box/"
+    window.location="https://dls76.github.io/dbox2/"
 }
