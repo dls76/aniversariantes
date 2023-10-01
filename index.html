@@ -4,28 +4,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aniversariantes CAAB</title>
+    <title>Aniversariantes CAC 2023</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/8abf0ff8b8.js" crossorigin="anonymous"></script>
-    <script src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/8abf0ff8b8.js" crossorigin="anonymous"></script>
 </head>
 <body onload="show()">
     <div class="conteiner" id="conteiner">
         <div class="content">      
             <p id="hoje"></p>
             <p id="parabens">Feliz Aniversário!</p>
-            <!-- <p><img src="" alt="foto"></p>  -->
+            <div id="boxAniversariantes">
+
+
+            </div> 
             <p id="nome"></p>
             <p id="funcao"></p>
             <div class="bts">
-                <div class="parabenizar">
+            <i class="fa-solid fa-circle-xmark bt-fechar" onclick="fechar()"></i>
+                <!-- <div class="btn-parabenizar">
                     <a href="https://dls76.github.io/dbox2/" target="_blank">Fechar</a>
-                </div>
-                <div class="bt-fechar" onclick="fechar()">x</div>
+                </div> -->
+                <!-- <div class="bt-fechar" onclick="fechar()"> -->
+                <!-- </div> -->
             </div>
             
         </div>
     </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
 

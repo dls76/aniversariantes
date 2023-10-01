@@ -4,142 +4,124 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
-
 .conteiner {
     width: 100vw;
     height: 100vh;
-    background-image: url("fotocapa.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+    opacity: .95;
+    background-image: linear-gradient(to bottom, #6d2db0, #7131b4, #7636b8, #7a3abc, #7e3ec0);
 }
-
 .content {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 790px;
-    background: #ffffffc9;
-    padding: 40px;
+    min-width: 70%;
+    height: 80vh;
+    background: #fff;
+    padding: 2rem;
     position: absolute;
     box-shadow: 5px 5px 10px #70707090;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 p {
     text-align: center;
     font-weight: bolder;
-    color: #835423;
 }
 
 #hoje {
     color: rgb(107, 107, 107);
-}
-
-#parabens {
-    margin: 30px;
-    font-size: 1.5em;
-}
-
-#nome {
-    font-size: 1.8em;
-}
-
-#funcao {
-    margin-top: 20px;
-    font-size: 1em;
-}
-
-#hoje {
     font-size: 0.8em;
 }
 
-.bts {
-    width: 100%;
-    display: flex;
-    justify-content:center;
-}
-
-.fechar {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 2rem;
-    width: 14rem;
-    height: 3rem;
-    border-radius: 20px;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    transition: all .3s ease-out;
-    background-color: #835423;
-    color: #fff;
-    font-size: .9rem;
-    text-align: center;
-}
-
-.fechar:hover {
-    background-color: #6D657B9c;
-    color: #ffffff;
-    border: 2px solid #835423;
-}
-
-.parabenizar {
-    margin: 2rem;
-    width: 14rem;
-    border-radius: 20px;
-    border: 2px solid #0275d8;
-    outline: none;
-    padding: .9rem;
-    cursor: pointer;
-    transition: all .3s ease-out;
-    background-color: #0275d8;
-    color: #fff;
-    font-weight: 500;
-    text-align: center;
-}
-
-.parabenizar a {
-    text-decoration: none;
-    color: #fff;
-    display: block;
-}
-
-.parabenizar:hover {
-    background-color: #5bc0de;
-    border: 2px solid #0275d8;
-}
-
-.fa-brands {
-    margin-right: 1rem;
-    font-size: 1.3rem;
+#parabens {
+    margin: .3rem;
+    font-size: 1.8em;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #6d2db0;
 }
 
 .bt-fechar {
     position: absolute;
-    top: -20px;
-    right: -20px;
+    top: -30px;
+    right: -30px;
+    font-weight: 600;
+    font-size: 2rem;
+    cursor: pointer;
+    color: #6d2db0;
     width: 40px;
     height: 40px;
+    background-color: #fff;
+    border: 3px solid #fff;
+    border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-weight: 600;
-    font-size: 1.1rem;
-    color: #fff;
-    background-color: #0275d8;
+}
+
+.bt-fechar:hover {
+    color: gray;
+}
+
+#boxAniversariantes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 440px;
+    overflow: auto;
+    width: 100%;
+}
+
+.cardAniversariantes {
+    background-color: #fff;
+    border-radius: 10px;
+    width: 260px;
+    height: 360px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 6fr 3fr 1fr 1fr;
+    padding: 1.4rem;
+    margin: 1rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    border: 1px solid lightgray;
+}
+
+.nomeAniversariante {
+    font-size: 1.4rem;
+    font-weight: 800;
+    text-align: center;
+    color: rgb(50, 50, 50);
+    font-family: 'Roboto', Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nomeAniversariante::after {
+    content: '';
+    display: block;
+    width: 120px;
+    height: 3px;
+    background: #6d2db0;
+    margin: 1rem auto;
+}
+
+.funcaoAniversariante {
+    font-size: 1rem;
+    color: gray;
+    text-align: center;
+    font-family: 'Roboto', Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.fotoAniversariantes {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.foto {
+    width: 150px;
     border-radius: 50%;
-    cursor: pointer;
+    border: 3px solid rgb(201, 201, 201);
 }
-
-@media only screen and (max-width: 790px) {
-    
-   .content {
-       width: 90%;
-   }
-
-}
-
