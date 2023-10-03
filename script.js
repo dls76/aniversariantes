@@ -1,6 +1,6 @@
 function show() {
 
-    var data = new Date()
+    var data = new Date(2023,9,6)
     var diaSemana = data.getDay()
     var dia = data.getDate() 
     var mes = data.getMonth()
@@ -44,16 +44,16 @@ function show() {
     // {nome: "Vinicius Fernando Serain", dia: 27, mes: 8, ano: 1990, funcao: "Pastoral", foto:"img/anivImg/vini.jpg", nascimento: new Date()},
 
     //OUTUBRO
-    {nome: "Daisy Karin Silva Ferreira", dia: 6, mes: 9, ano: 1993, funcao: "Promotora de Matrículas", foto:"img/46.jpg", birth: new Date(1976, 2, 20)},
-    {nome: "Larissa Cardoso de Franca Goncalves", dia: 6, mes: 9, ano: 1987, funcao: "Professor(a)", foto:"img/46.jpg", birth: new Date(1976, 2, 20)},
-    {nome: "Gisele Cordeiro da Silva", dia: 9, mes: 9, ano: 1984, funcao: "Tutor(a)", foto:"img/46.jpg", birth: new Date(1976, 2, 20)},
-    {nome: "Jaqueline Marcia Hoffmeister Senko", dia: 9, mes: 9, ano: 1980, funcao: "Coord(a) Pedagógico(a)", foto:"img/46.jpg", birth: new Date(1976, 2, 20)},
-    {nome: "Joice Mari da Silva Pereira", dia: 10, mes: 9, ano: 1992, funcao: "Professor(a)", foto:"img/46.jpg", birth: new Date(1976, 2, 20)},
-    {nome: "Douglas Frohlich Reded", dia: 19, mes: 9, ano: 1992, funcao: "Ti", foto:"img/46.jpg", birth: new Date(1976, 2, 20)},
-    {nome: "Silmara de Lima Grochka", dia: 19, mes: 9, ano: 1993, funcao: "Zelador(a)", foto:"img/46.jpg", birth: new Date(1976, 2, 20)},
-    {nome: "Isabele Carla dos Santos", dia: 24, mes: 9, ano: 2000, funcao: "Monitor(a)", foto:"img/46.jpg", birth: new Date(1976, 2, 20)},
-    {nome: "Carmem Aparecida Abolis da Silva", dia: 25, mes: 9, ano: 1982, funcao: "Professor(a)", foto:"img/46.jpg", birth: new Date(1976, 2, 20)},
-    {nome: "Rosineide de Souza Westphal", dia: 25, mes: 9, ano: 1982, funcao: "Monitor(a)", foto:"img/46.jpg", birth: new Date(1976, 2, 20)},
+    {nome: "Daisy Karin Silva Ferreira", dia: 6, mes: 9, ano: 1993, funcao: "Promotora de Matrículas", foto:"img/outubro/Daisy.jpeg", birth: new Date(1976, 2, 20)},
+    {nome: "Larissa Cardoso de Franca Goncalves", dia: 6, mes: 9, ano: 1987, funcao: "Professora", foto:"img/outubro/Larissa.jpeg", birth: new Date(1976, 2, 20)},
+    {nome: "Gisele Cordeiro da Silva", dia: 9, mes: 9, ano: 1984, funcao: "Tutora", foto:"img/outubro/Gisele.png", birth: new Date(1976, 2, 20)},
+    {nome: "Jaqueline Marcia Hoffmeister Senko", dia: 9, mes: 9, ano: 1980, funcao: "Coord. Pedagógica", foto:"img/outubro/Jaqueline.jpg", birth: new Date(1976, 2, 20)},
+    {nome: "Joice Mari da Silva Pereira", dia: 10, mes: 9, ano: 1992, funcao: "Professora", foto:"img/outubro/Joice.jpg", birth: new Date(1976, 2, 20)},
+    {nome: "Douglas Frohlich Reded", dia: 19, mes: 9, ano: 1992, funcao: "TI", foto:"img/outubro/douglasfrohlich.jpeg", birth: new Date(1976, 2, 20)},
+    {nome: "Silmara de Lima Grochka", dia: 19, mes: 9, ano: 1993, funcao: "Zeladora", foto:"img/outubro/Silmara.png", birth: new Date(1976, 2, 20)},
+    {nome: "Isabele Carla dos Santos", dia: 24, mes: 9, ano: 2000, funcao: "Monitora", foto:"img/outubro/Isabele.jpeg", birth: new Date(1976, 2, 20)},
+    {nome: "Carmem Aparecida Abolis da Silva", dia: 25, mes: 9, ano: 1982, funcao: "Professora", foto:"img/outubro/Carmem.jpg", birth: new Date(1976, 2, 20)},
+    {nome: "Rosineide de Souza Westphal", dia: 25, mes: 9, ano: 1982, funcao: "Monitora", foto:"img/outubro/Rosineide.jpg", birth: new Date(1976, 2, 20)},
        
     ]
 
