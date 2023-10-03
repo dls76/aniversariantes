@@ -1,6 +1,6 @@
 function show() {
 
-    var data = new Date(2023,9,6)
+    var data = new Date()
     var diaSemana = data.getDay()
     var dia = data.getDate() 
     var mes = data.getMonth()
