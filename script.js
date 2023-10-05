@@ -119,3 +119,5 @@ function fechar() {
     document.getElementById('conteiner').style.display = "none"
     window.location="https://dls76.github.io/dbox2/"
 }
+
+
