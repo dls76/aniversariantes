@@ -46,7 +46,7 @@ function show() {
     //OUTUBRO
     {nome: "Daisy Karin Silva Ferreira", dia: 6, mes: 9, ano: 1993, funcao: "Promotora de Matrículas", foto:"img/outubro/Daisy.jpeg", birth: new Date(1976, 2, 20)},
     {nome: "Larissa Cardoso de Franca Goncalves", dia: 6, mes: 9, ano: 1987, funcao: "Professora", foto:"img/outubro/Larissa.jpeg", birth: new Date(1976, 2, 20)},
-    {nome: "Gisele Cordeiro da Silva", dia: 9, mes: 9, ano: 1984, funcao: "Tutora", foto:"img/outubro/Gisele.png", birth: new Date(1976, 2, 20)},
+    {nome: "Gisele Cordeiro da Silva", dia: 9, mes: 9, ano: 1984, funcao: "Tutora", foto:"img/outubro/Gisele.jpg", birth: new Date(1976, 2, 20)},
     {nome: "Jaqueline Marcia Hoffmeister Senko", dia: 9, mes: 9, ano: 1980, funcao: "Coord. Pedagógica", foto:"img/outubro/Jaqueline.jpg", birth: new Date(1976, 2, 20)},
     {nome: "Joice Mari da Silva Pereira", dia: 10, mes: 9, ano: 1992, funcao: "Professora", foto:"img/outubro/Joice.jpg", birth: new Date(1976, 2, 20)},
     {nome: "Douglas Frohlich Reded", dia: 19, mes: 9, ano: 1992, funcao: "TI", foto:"img/outubro/douglasfrohlich.jpeg", birth: new Date(1976, 2, 20)},
