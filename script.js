@@ -50,7 +50,7 @@ function show() {
     {nome: "Jaqueline Marcia Hoffmeister Senko", dia: 9, mes: 9, ano: 1980, funcao: "Coord. Pedagógica", foto:"img/outubro/Jaqueline.png", birth: new Date(1976, 2, 20)},
     {nome: "Joice Mari da Silva Pereira", dia: 10, mes: 9, ano: 1992, funcao: "Professora", foto:"img/outubro/Joice.jpg", birth: new Date(1976, 2, 20)},
     {nome: "Douglas Frohlich Reded", dia: 19, mes: 9, ano: 1992, funcao: "TI", foto:"img/outubro/douglasfrohlich.jpeg", birth: new Date(1976, 2, 20)},
-    {nome: "Silmara de Lima Grochka", dia: 19, mes: 9, ano: 1993, funcao: "Zeladora", foto:"img/outubro/Silmara.png", birth: new Date(1976, 2, 20)},
+    {nome: "Silmara de Lima Grochka", dia: 19, mes: 9, ano: 1993, funcao: "Tutora", foto:"img/outubro/silmara.jpg", birth: new Date(1976, 2, 20)},
     {nome: "Isabele Carla dos Santos", dia: 24, mes: 9, ano: 2000, funcao: "Monitora", foto:"img/outubro/Isabele.jpeg", birth: new Date(1976, 2, 20)},
     {nome: "Carmem Aparecida Abolis da Silva", dia: 25, mes: 9, ano: 1982, funcao: "Professora", foto:"img/outubro/Carmem.jpg", birth: new Date(1976, 2, 20)},
     {nome: "Rosineide de Souza Westphal", dia: 25, mes: 9, ano: 1982, funcao: "Monitora", foto:"img/outubro/Rosineide.jpg", birth: new Date(1976, 2, 20)},
