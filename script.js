@@ -54,6 +54,13 @@ function show() {
     {nome: "Isabele Carla dos Santos", dia: 24, mes: 9, ano: 2000, funcao: "Monitora", foto:"img/outubro/Isabele.jpeg", birth: new Date(1976, 2, 20)},
     {nome: "Carmem Aparecida Abolis da Silva", dia: 25, mes: 9, ano: 1982, funcao: "Professora", foto:"img/outubro/Carmem.jpg", birth: new Date(1976, 2, 20)},
     {nome: "Rosineide de Souza Westphal", dia: 25, mes: 9, ano: 1982, funcao: "Monitora", foto:"img/outubro/Rosineide.jpg", birth: new Date(1976, 2, 20)},
+    
+    //NOVEMBRO
+    {nome: "Nome", dia: 1, mes: 10, ano: 2023, funcao: "Função", foto:"img/novembro/user.png"},
+    {nome: "Nome", dia: 1, mes: 10, ano: 2023, funcao: "Função", foto:"img/novembro/user.png"},
+    {nome: "Nome", dia: 1, mes: 10, ano: 2023, funcao: "Função", foto:"img/novembro/user.png"},
+    {nome: "Nome", dia: 1, mes: 10, ano: 2023, funcao: "Função", foto:"img/novembro/user.png"},
+    {nome: "Nome", dia: 1, mes: 10, ano: 2023, funcao: "Função", foto:"img/novembro/user.png"},
        
     ]
 
