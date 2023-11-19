@@ -59,7 +59,7 @@ function show() {
     {nome: "Suzanne Mendes dos Santos", dia: 1, mes: 10, ano: 1989, funcao: "Professora", foto:"img/novembro/Suzanne.jpg"},
     {nome: "Bruna do Rocio Biscoto dos Santos", dia: 15, mes: 10, ano: 1997, funcao: "Auxiliar de CT", foto:"img/novembro/Bruna.jpg"},
     {nome: "Josiane Vieira Lopes Klimek", dia: 18, mes: 10, ano: 1975, funcao: "Tesoureira", foto:"img/novembro/Josiane.jpeg"},
-    {nome: "Henry Fidelis Pereira", dia: 19, mes: 10, ano: 1996, funcao: "Professor", foto:"img/novembro/Henry.png"},
+    {nome: "Henry Fidelis Pereira", dia: 19, mes: 10, ano: 1996, funcao: "Professor", foto:"img/novembro/henry.jpg"},
     {nome: "Rosecler Vozniak Luiz", dia: 19, mes: 10, ano: 1967, funcao: "Tutora", foto:"img/novembro/Rosecler.jpg"},
 
 
