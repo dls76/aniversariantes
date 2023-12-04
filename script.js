@@ -64,11 +64,12 @@ function show() {
 
 
     //DEZEMBRO
-    {nome: "Leonardo Vinicius Santos e Santos", dia: 11, mes: 11, ano: 2002, funcao: "Professor", foto:"img/anivImg/dezembro/Leonardo"},
-    {nome: "Valdene Neres de Sena Reis", dia: 12, mes: 11, ano: 1967, funcao: "Zeladora", foto:"img/anivImg/dezembro/Valdene"},
-    {nome: "Carin Grime de Melo", dia: 13, mes: 11, ano: 1988, funcao: "Secretária", foto:"img/anivImg/dezembro/Carin"},
-    {nome: "Glauton Vinicius de Andrade", dia: 27, mes: 11, ano: 1968, funcao: "Professor", foto:"img/anivImg/dezembro/Glauton"},
-       
+    {nome: "Orlandina de Oliveira Couto", dia: 2, mes: 11, ano: 2002, funcao: "Zeladora", foto: "img/dezembro/orlandina.png"},
+    {nome: "Leonardo Vinicius Santos e Santos", dia: 11, mes: 11, ano: 2002, funcao: "Professor", foto:"img/dezembro/leonardo.png"},
+    {nome: "Valdene Neres de Sena Reis", dia: 12, mes: 11, ano: 1967, funcao: "Zeladora", foto:"img/dezembro/valdene.png"},
+    {nome: "Carin Grime de Melo", dia: 13, mes: 11, ano: 1988, funcao: "Secretária", foto:"img/dezembro/carin.png"},
+    {nome: "Glauton Vinicius de Andrade", dia: 27, mes: 11, ano: 1968, funcao: "Professor", foto:"img/dezembro/glauton.png"},
+
     ]
 
     const aniversariantesDoDia = [] 
